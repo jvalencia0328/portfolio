@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+header{
+    width:750px;
+    margin: 20px auto;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3rem;
+}
+
+.logo{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.nav-links{
+    display:flex;
+    list-style: none;
+     gap:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration: none;
+}
+
+.visit-btn{
+    padding: 8px 20px;
+    background
+}
+
