@@ -23,8 +23,13 @@ header{
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
+    transition: 0.3s
 
 }
+.logo:hover{
+    transform: scale(1.1);
+}
+
 .nav-links{
     display:flex;
     list-style: none;
@@ -38,6 +43,16 @@ header{
 
 .visit-btn{
     padding: 8px 20px;
-    background
+    border-radius: 3rem;
+    border: none;
+    text-wrap:nowrap;
+    transition: 0.3s ease-in-out;
+    color:white;
+   background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
+}
+
+.visit-btn:hover{
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+    transform: scale(1.03);
 }
 
