@@ -56,6 +56,8 @@ header{
     transform: scale(1.03);
 }
 
+/*--------About Section--------*/
+
 section{
     min-height: 100vh;
     padding: 8rem 12%;
@@ -78,7 +80,7 @@ section{
 
 .about img{
     width: 30vw;
-    border: 50%;
+    border-radius: 50%;
 }
 
 .info-box{
@@ -90,6 +92,12 @@ section{
     gap: 1.5rem;
 
 }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
 .info-box h3{
     font-family: 1.8rem;
     font-weight: 500;
@@ -98,7 +106,7 @@ section{
 .info-box h1{
     font-size: 4rem;
     font-weight: 600;
-    text-wrap: nowrap;
+    
 }
 .info-box span{
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
@@ -118,5 +126,19 @@ section{
     border:2px solid black;
     cursor: pointer;
     font-weight: 500;
+    text-wrap: nowrap;
+    transition: 0.2s easi-in-out;
 }
+
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
 
