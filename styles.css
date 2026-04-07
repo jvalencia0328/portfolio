@@ -48,11 +48,75 @@ header{
     text-wrap:nowrap;
     transition: 0.3s ease-in-out;
     color:white;
-   background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
+    background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
 }
 
 .visit-btn:hover{
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
     transform: scale(1.03);
+}
+
+section{
+    min-height: 100vh;
+    padding: 8rem 12%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.about .about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.about img{
+    width: 30vw;
+    border: 50%;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.info-box h3{
+    font-family: 1.8rem;
+    font-weight: 500;
+}
+
+.info-box h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+.info-box span{
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+    color: transparent;
+    background-clip: text;
+    font-size: 1rem;
+}
+
+.btn-group{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn{
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border:2px solid black;
+    cursor: pointer;
+    font-weight: 500;
 }
 
