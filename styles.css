@@ -98,6 +98,8 @@ section{
     flex-direction: column;
     gap:0.5rem;
 }
+
+
 .info-box h3{
     font-family: 1.8rem;
     font-weight: 500;
@@ -127,7 +129,7 @@ section{
     cursor: pointer;
     font-weight: 500;
     text-wrap: nowrap;
-    transition: 0.2s easi-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .btn:hover{
@@ -139,6 +141,64 @@ section{
     display: flex;
     gap: 1.5rem;
 }
+
+/*--------Projects Section--------*/
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card:hover{
+    background-color: black;
+    color:white;
+    transform: translateY(-10px)scale(1.02);
+
+
+}
+
+.project-card img{
+    width: 20vw;
+    border-radius: 1rem;
+}
+
+.project-card:hover .btn{
+    border: 2px solid white;
+    color:  black;
+
+}
+
+.project-card:hover .btn:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+.project-card h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 
 
 
