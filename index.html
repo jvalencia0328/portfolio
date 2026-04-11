@@ -1,110 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="#" class="logo"><span>Jeanluca Valencia</span></a>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="visit-btn">Visit GitHub  </button>
+      <a href="#" class="logo"><span>Jeanluca Valencia</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="visit-btn">Visit GitHub</button>
     </header>
 
-   <!--About me Section-->
+    <!--About me Section-->
     <section id="about" class="about">
-        <div class="about-container">
-            <img src="images/image.jpg" alt="profile picture" class="profile-pic">
+      <div class="about-container">
+        <img src="images/image.jpg" alt="profile picture" class="profile-pic" />
 
-            <div class="info-box">
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Jeanluca Valencia</h1>
+            <span>CS Major</span>
+            <p>
+              I am a passionate computer science student at SFSU with a love for
+              web development and programming.
+            </p>
+          </div>
 
-                <div class="text">
-                    <h3>Hi, I'm</h3>
-                    <h1>Jeanluca Valencia</h1>
-                    <span>CS Major</span>
-                    <p>I am a passionate computer science student at SFSU with a love for web development and programming.</p>
-                </div>
-                
-                
-                <!--Buttons-->
-                <div class="btn-group">
-                    <div class="btn">Download CV</div>
-                    <div class="btn">Contact Me</div>
-                </div>
+          <!--Buttons-->
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact Me</div>
+          </div>
 
-                <!--Socials-->
-                <div class="socials">
-
-                </div>
-
-            </div>
+          <!--Socials-->
+          <div class="socials"></div>
         </div>
+      </div>
     </section>
 
     <!--Projects Section-->
     <section id="projects" class="projects">
-        <h2 class="section-title"> Recent Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>A brief description of the project goes here.</p>
-                <div class="btn-group">
-                    <button class="btn">Live Demo</button>
-                    <button class="btn">Github Repo</button>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>A brief description of the project goes here.</p>
-                    <div class="btn-group">
-                        <button class="btn">Live Demo</button>
-                        <button class="btn">Github Repo</button>
-            </div>
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project 1" />
+          <h3>Project Title 1</h3>
+          <p>A brief description of the project goes here.</p>
+          <div class="btn-group">
+            <button class="btn">Live Demo</button>
+            <button class="btn">Github Repo</button>
+          </div>
         </div>
-            <div class="project-card">
-                <img src="images/project3.jpg" alt="Project 3">
-                <h3>Project Title 3</h3>
-                <p>A brief description of the project goes here.</p>
-                    <div class="btn-group">
-                        <button class="btn">Live Demo</button>
-                        <button class="btn">Github Repo</button>
-            </div>
+
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Project 2" />
+          <h3>Project Title 2</h3>
+          <p>A brief description of the project goes here.</p>
+          <div class="btn-group">
+            <button class="btn">Live Demo</button>
+            <button class="btn">Github Repo</button>
+          </div>
         </div>
+
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="Project 3" />
+          <h3>Project Title 3</h3>
+          <p>A brief description of the project goes here.</p>
+          <div class="btn-group">
+            <button class="btn">Live Demo</button>
+            <button class="btn">Github Repo</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="input-box">
-            <h2 class="contact-me">Contact me</h2>
-            <div class="input"> 
-                <input type="text" placeholder="your@email.com">
-                
-                
-                
-            </div>
-            <div class="btn">Submit</div> 
-            
-
+      <div class="input-box">
+        <h2 class="contact-me">Contact me</h2>
+        <div class="contact-box">
+          <a href="mailto:jeanlucavalencia08@gmail.com"
+            >jeanlucavalencia08@gmail.com</a
+          >
+          <a href="https://github.com/jvalencia0328" target="_blank"
+            >GitHub Profile</a
+          >
+          <a
+            href="https://www.linkedin.com/in/jeanluca-valencia-965883227/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
         </div>
-        
+      </div>
     </section>
 
     <footer>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <p>&copy; 2026 Jeanluca Valencia. All rights reserved.</p>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>&copy; 2026 Jeanluca Valencia. All rights reserved.</p>
     </footer>
 
- <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
