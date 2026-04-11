@@ -1,0 +1,1 @@
+Hi, I'm Jeanluca, a CS student at SFSU and this is my website portfolio made with HTML, CSS, and JS.
